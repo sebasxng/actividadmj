@@ -27,6 +27,8 @@ class Babosa(BaseModel):
     bando: Bando
     imagen: str
     elemento: Optional[str] = None
+    # Dato corto sobre la babosa (por ejemplo, de cuál babosa es la versión ghoul)
+    descripcion: Optional[str] = None
     habilidad: Optional[str] = None
     donde_se_encuentra: Optional[str] = None
     estadisticas: Optional[Estadisticas] = None
@@ -51,7 +53,11 @@ CATEGORIAS = [
     CategoriaInfo(
         id="elementales",
         titulo="Babosas Elementales",
-        descripcion="Las babosas elementales y sus versiones malvadas.",
+        descripcion=(
+            "Las cinco babosas elementales regulan la fuerza vital de Bajoterra y, según la "
+            "leyenda, todas las babosas evolucionaron a partir de ellas. Abajo están también "
+            "sus versiones ghoul."
+        ),
     ),
     CategoriaInfo(
         id="malvadas",

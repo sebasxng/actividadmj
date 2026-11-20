@@ -42,6 +42,7 @@ Todos los datos están en `backend/data/babosas.json`. Cada babosa tiene estos c
 | `bando` | `buena` o `malvada` |
 | `imagen` | Ruta de la imagen, por ejemplo `images/Burpy.webp` |
 | `elemento` | Elemento de la babosa (opcional) |
+| `descripcion` | Dato corto, por ejemplo de cuál babosa es la versión ghoul (opcional) |
 | `habilidad` | Qué hace la babosa (opcional) |
 | `donde_se_encuentra` | Cavernas o zonas donde vive (opcional) |
 | `estadisticas` | `{ "ataque": 7, "defensa": 5, "velocidad": 8 }`, valores de 1 a 10 (opcional) |

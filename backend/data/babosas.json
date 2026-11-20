@@ -5,12 +5,13 @@
     "categoria": "babosas",
     "bando": "buena",
     "imagen": "images/Berpy.webp",
-    "elemento": null,
-    "habilidad": null,
+    "elemento": "Fuego",
+    "habilidad": "Transformada, le salen alas de llamas y escupe fuego.",
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Su especie es Infurnus."
   },
   {
     "id": "electroshock",
@@ -23,7 +24,8 @@
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "torpedo",
@@ -36,7 +38,8 @@
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "splitz",
@@ -49,7 +52,8 @@
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "hexlet",
@@ -57,12 +61,13 @@
     "categoria": "babosas",
     "bando": "buena",
     "imagen": "images/Hexlet.webp",
-    "elemento": null,
-    "habilidad": null,
+    "elemento": "Tierra / Psíquico",
+    "habilidad": "Su ataque principal da mala suerte a quien golpea.",
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "No aparece en la serie."
   },
   {
     "id": "blastipede",
@@ -70,12 +75,13 @@
     "categoria": "babosas",
     "bando": "buena",
     "imagen": "images/Novato.webp",
-    "elemento": null,
-    "habilidad": null,
+    "elemento": "Tierra",
+    "habilidad": "Al transformarse libera bombas que se activan cuando la babosa está en su forma normal.",
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "franguadora",
@@ -83,12 +89,13 @@
     "categoria": "babosas",
     "bando": "buena",
     "imagen": "images/Franguadora.jpg",
-    "elemento": null,
+    "elemento": "Fuego",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": true,
+    "descripcion": "Se identifica con Forgesmelter."
   },
   {
     "id": "bengala",
@@ -96,12 +103,13 @@
     "categoria": "babosas",
     "bando": "buena",
     "imagen": "images/Bengala.webp",
-    "elemento": null,
+    "elemento": "Fuego",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": true,
+    "descripcion": "Se identifica con Flaringo, una babosa de fuego común."
   },
   {
     "id": "tornado",
@@ -109,12 +117,13 @@
     "categoria": "babosas",
     "bando": "buena",
     "imagen": "images/Tornado.webp",
-    "elemento": null,
-    "habilidad": null,
+    "elemento": "Aire",
+    "habilidad": "Dispara ráfagas de aire y, transformada, genera un tornado que arrasa con todo.",
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": true,
+    "descripcion": "Se identifica con Tormato."
   },
   {
     "id": "enigma",
@@ -122,12 +131,13 @@
     "categoria": "babosas",
     "bando": "buena",
     "imagen": "images/Enigma.webp",
-    "elemento": null,
-    "habilidad": null,
+    "elemento": "Energía",
+    "habilidad": "Altera gravemente la visión de lo que golpea; el efecto se revierte con otro impacto de babosa.",
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": true,
+    "descripcion": "Se identifica con Enigmo."
   },
   {
     "id": "carnero",
@@ -135,12 +145,13 @@
     "categoria": "babosas",
     "bando": "buena",
     "imagen": "images/Carnero.webp",
-    "elemento": null,
-    "habilidad": null,
+    "elemento": "Tierra",
+    "habilidad": "Se usa para embestidas potentes.",
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": true,
+    "descripcion": "Se identifica con Rammstone."
   },
   {
     "id": "congelada",
@@ -148,12 +159,13 @@
     "categoria": "babosas",
     "bando": "buena",
     "imagen": "images/Congelada.webp",
-    "elemento": null,
+    "elemento": "Agua / Hielo",
     "habilidad": "Lanza ráfagas de viento helado, crea muros y bloques de hielo, congela a sus oponentes y dispara carámbanos. También forma superficies resbaladizas para deslizarse a gran velocidad.",
     "donde_se_encuentra": "Cavernas frías del norte, como Chillbore, en las 99 Cavernas.",
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": true
+    "por_confirmar": true,
+    "descripcion": "Se identifica con Frostcrawler."
   },
   {
     "id": "elemental-de-fuego",
@@ -161,12 +173,13 @@
     "categoria": "elementales",
     "bando": "buena",
     "imagen": "images/Elemental fuego.webp",
-    "elemento": null,
+    "elemento": "Fuego",
     "habilidad": null,
-    "donde_se_encuentra": null,
+    "donde_se_encuentra": "En una caverna sin nombre a la que solo se llega volando en Infurnus.",
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "elemental-de-agua",
@@ -174,12 +187,13 @@
     "categoria": "elementales",
     "bando": "buena",
     "imagen": "images/Elemental agua.webp",
-    "elemento": null,
+    "elemento": "Agua",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "elemental-de-tierra",
@@ -187,12 +201,13 @@
     "categoria": "elementales",
     "bando": "buena",
     "imagen": "images/Elemental tierra.webp",
-    "elemento": null,
-    "habilidad": null,
+    "elemento": "Tierra",
+    "habilidad": "Salvó al grupo de Shane de ahogarse en el lodo.",
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "elemental-de-aire",
@@ -200,12 +215,13 @@
     "categoria": "elementales",
     "bando": "buena",
     "imagen": "images/Elemental Aire.webp",
-    "elemento": null,
-    "habilidad": null,
+    "elemento": "Aire",
+    "habilidad": "Un disparo suyo abrió un portal terra hacia las Cavernas Profundas.",
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "elemental-de-energia",
@@ -213,12 +229,13 @@
     "categoria": "elementales",
     "bando": "buena",
     "imagen": "images/Elemental energia.webp",
-    "elemento": null,
-    "habilidad": null,
-    "donde_se_encuentra": null,
+    "elemento": "Energía",
+    "habilidad": "Tiene capacidad de sanación: curó a Red Hook.",
+    "donde_se_encuentra": "En la cueva Quiet Lawn.",
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "En el episodio, Eli descubre que Doc es la Elemental de Energía."
   },
   {
     "id": "elemental-de-fuego-malvada",
@@ -226,12 +243,13 @@
     "categoria": "elementales",
     "bando": "malvada",
     "imagen": "images/Elemental fuego malvada.webp",
-    "elemento": null,
+    "elemento": "Fuego (ghoul)",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Se infectó durante el vuelo hacia su caverna y convirtió en ghouls a los Infurnus de Eli y Junjie."
   },
   {
     "id": "elemental-de-agua-malvada",
@@ -239,12 +257,13 @@
     "categoria": "elementales",
     "bando": "malvada",
     "imagen": "images/Elemental agua malvada.png",
-    "elemento": null,
+    "elemento": "Agua (ghoul)",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Se infectó después de la elemental de aire. El agua normal se convierte en Agua Oscura."
   },
   {
     "id": "elemental-de-tierra-malvada",
@@ -252,12 +271,13 @@
     "categoria": "elementales",
     "bando": "malvada",
     "imagen": "images/Elemental tierra malvada.webp",
-    "elemento": null,
+    "elemento": "Tierra (ghoul)",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Se infectó después de la elemental de agua."
   },
   {
     "id": "elemental-de-aire-malvada",
@@ -265,12 +285,13 @@
     "categoria": "elementales",
     "bando": "malvada",
     "imagen": "images/Elemental aire malvada.webp",
-    "elemento": null,
+    "elemento": "Aire (ghoul)",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Fue la primera elemental en infectarse. Las babosas de aire infectadas se vuelven ghouls incurables."
   },
   {
     "id": "elemental-de-energia-malvada",
@@ -278,12 +299,13 @@
     "categoria": "elementales",
     "bando": "malvada",
     "imagen": "images/Elemental Energia Malvada.png",
-    "elemento": null,
+    "elemento": "Energía (ghoul)",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "goon-doc",
@@ -291,12 +313,13 @@
     "categoria": "malvadas",
     "bando": "malvada",
     "imagen": "images/Sanadora malvada.webp",
-    "elemento": null,
-    "habilidad": null,
+    "elemento": "Energía Oscura",
+    "habilidad": "Sus efectos son opuestos a los de su versión original.",
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Versión ghoul de Boon Doc."
   },
   {
     "id": "smugglet",
@@ -304,12 +327,13 @@
     "categoria": "malvadas",
     "bando": "malvada",
     "imagen": "images/Smuggle malvada.webp",
-    "elemento": null,
+    "elemento": "Energía Oscura",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Versión ghoul de Thugglet, una babosa que crea ilusiones."
   },
   {
     "id": "grimmstone",
@@ -317,12 +341,13 @@
     "categoria": "malvadas",
     "bando": "malvada",
     "imagen": "images/Grimmstone.webp",
-    "elemento": null,
+    "elemento": "Energía Oscura",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Versión ghoul de Rammstone. Tiene con su slinger un vínculo parecido al de una babosa normal."
   },
   {
     "id": "bubbalash",
@@ -330,12 +355,13 @@
     "categoria": "malvadas",
     "bando": "malvada",
     "imagen": "images/Bubbalash.webp",
-    "elemento": null,
+    "elemento": "Energía Oscura",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Versión ghoul de Bubbaleone."
   },
   {
     "id": "fosforo",
@@ -343,12 +369,13 @@
     "categoria": "malvadas",
     "bando": "malvada",
     "imagen": "images/Fosforo malvada.webp",
-    "elemento": null,
+    "elemento": "Energía Oscura",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": true,
+    "descripcion": "Se identifica con Phosphoro, que transformada dispara una luz brillante."
   },
   {
     "id": "aquafreak",
@@ -356,12 +383,13 @@
     "categoria": "malvadas",
     "bando": "malvada",
     "imagen": "images/Aquafreak.webp",
-    "elemento": null,
+    "elemento": "Energía Oscura",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": null
   },
   {
     "id": "doomspiker",
@@ -369,12 +397,13 @@
     "categoria": "malvadas",
     "bando": "malvada",
     "imagen": "images/Doomspiker.webp",
-    "elemento": null,
+    "elemento": "Energía Oscura",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Nunca se ha visto en la serie."
   },
   {
     "id": "neurotox",
@@ -382,11 +411,12 @@
     "categoria": "malvadas",
     "bando": "malvada",
     "imagen": "images/Neurotox.webp",
-    "elemento": null,
+    "elemento": "Energía Oscura",
     "habilidad": null,
     "donde_se_encuentra": null,
     "estadisticas": null,
     "transformacion": null,
-    "por_confirmar": false
+    "por_confirmar": false,
+    "descripcion": "Versión ghoul de Neotox, una babosa de tierra."
   }
 ]
