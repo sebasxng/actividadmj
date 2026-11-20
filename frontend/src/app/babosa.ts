@@ -14,6 +14,7 @@ export interface Babosa {
   bando: Bando;
   imagen: string;
   elemento: string | null;
+  descripcion: string | null;
   habilidad: string | null;
   donde_se_encuentra: string | null;
   estadisticas: Estadisticas | null;

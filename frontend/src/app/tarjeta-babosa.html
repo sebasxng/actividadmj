@@ -24,6 +24,10 @@
       <span class="chip">{{ babosa().elemento }}</span>
     }
 
+    @if (babosa().descripcion) {
+      <p class="dato">{{ babosa().descripcion }}</p>
+    }
+
     <h4>Habilidad</h4>
     @if (babosa().habilidad) {
       <p>{{ babosa().habilidad }}</p>
