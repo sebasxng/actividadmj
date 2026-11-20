@@ -1,0 +1,67 @@
+<div
+  class="tarjeta"
+  [class.volteada]="volteada()"
+  role="button"
+  tabindex="0"
+  [attr.aria-pressed]="volteada()"
+  [attr.aria-label]="'Ver la ficha de ' + babosa().nombre"
+  (click)="girar()"
+  (keydown.enter)="girar()"
+  (keydown.space)="girar(); $event.preventDefault()"
+>
+  <!-- Frente -->
+  <div class="cara frente">
+    <div class="nombre">{{ babosa().nombre }}</div>
+    <img [src]="babosa().imagen" [alt]="'Babosa ' + babosa().nombre" loading="lazy" />
+    <p class="etiqueta">Babosa {{ babosa().nombre }}</p>
+  </div>
+
+  <!-- Dorso: la contra tarjeta con la ficha -->
+  <div class="cara dorso">
+    <div class="nombre">{{ babosa().nombre }}</div>
+
+    @if (babosa().elemento) {
+      <span class="chip">{{ babosa().elemento }}</span>
+    }
+
+    <h4>Habilidad</h4>
+    @if (babosa().habilidad) {
+      <p>{{ babosa().habilidad }}</p>
+    } @else {
+      <p class="vacio">Por completar</p>
+    }
+
+    <h4>Dónde se encuentra</h4>
+    @if (babosa().donde_se_encuentra) {
+      <p>{{ babosa().donde_se_encuentra }}</p>
+    } @else {
+      <p class="vacio">Por completar</p>
+    }
+
+    @if (barras().length) {
+      <h4>Estadísticas</h4>
+      @for (b of barras(); track b.etiqueta) {
+        <div class="barra">
+          <span>{{ b.etiqueta }}</span>
+          <div class="pista"><div class="relleno" [style.width.%]="b.valor * 10"></div></div>
+          <span>{{ b.valor }}</span>
+        </div>
+      }
+    }
+
+    <h4>Transformación</h4>
+    @if (babosa().transformacion; as ruta) {
+      @if (esVideo()) {
+        <video [src]="ruta" controls muted loop playsinline (click)="$event.stopPropagation()"></video>
+      } @else {
+        <img class="media" [src]="ruta" [alt]="'Transformación de ' + babosa().nombre" />
+      }
+    } @else {
+      <p class="vacio">Próximamente</p>
+    }
+
+    @if (babosa().por_confirmar) {
+      <small class="aviso">Dato por confirmar</small>
+    }
+  </div>
+</div>

@@ -1,0 +1,98 @@
+:host {
+  display: block;
+}
+
+.tarjeta {
+  position: relative;
+  width: 220px;
+  height: 360px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta:focus-visible {
+  outline: 3px solid #facc15;
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+.cara {
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  padding: 15px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(250, 204, 21, 0.3);
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+}
+
+.frente { transform: perspective(1000px) rotateY(0deg); text-align: center; }
+.dorso { transform: perspective(1000px) rotateY(180deg); overflow-y: auto; color: #1e293b; font-size: 13px; }
+.volteada .frente { transform: perspective(1000px) rotateY(-180deg); }
+.volteada .dorso { transform: perspective(1000px) rotateY(0deg); }
+
+.nombre {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.frente img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.etiqueta {
+  margin: 10px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #dc2626;
+}
+
+.chip {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 8px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #facc15;
+  font-weight: bold;
+}
+
+h4 {
+  margin: 10px 0 2px;
+  color: #0a192f;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.dorso p { margin: 0; line-height: 1.35; }
+.vacio { color: #94a3b8; font-style: italic; }
+
+.barra {
+  display: grid;
+  grid-template-columns: 62px 1fr 18px;
+  align-items: center;
+  gap: 6px;
+}
+
+.pista { height: 8px; background: #e2e8f0; border-radius: 4px; overflow: hidden; }
+.relleno { height: 100%; background: #dc2626; }
+
+video, .media { width: 100%; max-height: 120px; border-radius: 8px; object-fit: cover; }
+
+.aviso { display: block; margin-top: 10px; color: #b45309; font-style: italic; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cara, .tarjeta { transition: none; }
+}

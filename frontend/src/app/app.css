@@ -1,0 +1,58 @@
+/* Barra de navegación */
+.barra-navegacion {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 0;
+  background-color: #1f2937;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.barra-navegacion button {
+  background: #111827;
+  color: #facc15;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 12px;
+  font: bold 1rem 'Segoe UI', sans-serif;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.barra-navegacion button:hover,
+.barra-navegacion button.activa {
+  background: #facc15;
+  color: #111827;
+}
+
+.barra-navegacion button:hover {
+  transform: scale(1.05);
+}
+
+/* Galería de tarjetas */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto 60px;
+  max-width: 1200px;
+}
+
+.descripcion,
+.mensaje {
+  max-width: 700px;
+  margin: 10px auto 0;
+  padding: 0 16px;
+  text-align: center;
+  color: #cbd5e1;
+}
+
+.mensaje {
+  color: #fca5a5;
+}

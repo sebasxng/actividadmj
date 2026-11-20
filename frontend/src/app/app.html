@@ -1,0 +1,30 @@
+<nav class="barra-navegacion">
+  @for (c of categorias(); track c.id) {
+    <button type="button" [class.activa]="c.id === activa()" (click)="activa.set(c.id)">
+      {{ c.titulo }}
+    </button>
+  }
+</nav>
+
+<main>
+  <h1>{{ info()?.titulo ?? 'Bajoterra' }}</h1>
+
+  @if (info(); as i) {
+    <p class="descripcion">{{ i.descripcion }}</p>
+  }
+
+  @if (error()) {
+    <p class="mensaje">No se pudo cargar el catálogo. ¿Está encendido el backend?</p>
+  }
+
+  @for (g of grupos(); track $index) {
+    @if (g.titulo) {
+      <h2>{{ g.titulo }}</h2>
+    }
+    <section class="galeria">
+      @for (b of g.babosas; track b.id) {
+        <app-tarjeta-babosa [babosa]="b" />
+      }
+    </section>
+  }
+</main>
